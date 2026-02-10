@@ -2,8 +2,8 @@ title: Your Name
 email: your-email@domain.com
 description: >-
   Short site description goes here.
-baseurl: "" # User/org site uses empty baseurl
-url: "https://YOUR_USERNAME.github.io"
+baseurl: "/Academic-web-with-blog" # Project site repo name
+url: "https://aaronkhodami.github.io"
 twitter_username: your_handle
 github_username: your_handle
 

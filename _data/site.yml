@@ -3,8 +3,8 @@ title: Your Name
 description: >-
   Short site description goes here.
 email: your-email@domain.com
-url: "https://YOUR_USERNAME.github.io"
-baseurl: "" # User/org site uses empty baseurl
+url: "https://aaronkhodami.github.io"
+baseurl: "/Academic-web-with-blog" # Project site repo name
 
 # Author Settings
 author:
@@ -23,4 +23,4 @@ social:
   google_scholar: https://scholar.google.com/citations?user=Example
   researchgate: https://www.researchgate.net/profile/username
   orcid: https://orcid.org/0000-0000-0000-0000
-  website: https://YOUR_USERNAME.github.io
+  website: https://aaronkhodami.github.io
