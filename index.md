@@ -17,9 +17,6 @@ title: Home
     <img src="{{ '/assets/images/' | append: site.data.site.author.photo | relative_url }}" alt="{{ site.data.site.author.name }}" 
          onerror="this.src='https://ui-avatars.com/api/?name={{ site.data.site.author.name | cgi_escape }}&size=300&background=0D8ABC&color=fff';"
          style="z-index: 1; position: relative;">
-    <div class="aura-strip" style="position: absolute; bottom: -70px; right: -60px; z-index: 2; width: 200px; pointer-events: none; background: transparent !important; transform: rotate(0deg);">
-      <img src="{{ '/assets/images/aura-strips.png' | relative_url }}?v={{ site.time | date: '%s' }}" alt="Decorative Aura" style="border-radius: 0; box-shadow: none; border: none; width: 100%; background: transparent !important;">
-    </div>
   </div>
 </div>
 

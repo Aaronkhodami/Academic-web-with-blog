@@ -1,25 +1,32 @@
 <header class="site-header" role="banner">
   <div class="header-inner">
     <div class="site-branding">
-      <a class="site-title" rel="author" href="{{ " /" | relative_url }}">{{ site.data.site.title | escape }}</a>
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}" aria-label="Go to homepage">{{ site.data.site.title | escape }}</a>
     </div>
 
-    <nav class="site-nav">
-      <ul class="menu">
-        <li><a class="page-link" href="{{ " /" | relative_url }}">Home</a></li>
-        <li><a class="page-link" href="{{ " /about/" | relative_url }}">About</a></li>
-        <li><a class="page-link" href="{{ " /research/" | relative_url }}">Research</a></li>
-        <li><a class="page-link" href="{{ " /publications/" | relative_url }}">Publications</a></li>
-        <li><a class="page-link" href="{{ " /blog/" | relative_url }}">Blog</a></li>
-        {% if site.data.site.author.cv and site.data.site.author.cv != "" %}
-        <li><a class="page-link" href="{{ site.data.site.author.cv | relative_url }}" target="_blank"><i
-              class="fas fa-file-download"></i> CV</a></li>
-        {% endif %}
-      </ul>
+    <nav class="site-nav" role="navigation" aria-label="Main navigation">
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
 
-      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      <div class="menu-wrapper" id="main-menu">
+        <ul class="menu" role="menubar">
+          <li role="none"><a class="page-link" href="{{ "/" | relative_url }}" role="menuitem">Home</a></li>
+          <li role="none"><a class="page-link" href="{{ "/about/" | relative_url }}" role="menuitem">About</a></li>
+          <li role="none"><a class="page-link" href="{{ "/research/" | relative_url }}" role="menuitem">Research</a></li>
+          <li role="none"><a class="page-link" href="{{ "/publications/" | relative_url }}" role="menuitem">Publications</a></li>
+          <li role="none"><a class="page-link" href="{{ "/blog/" | relative_url }}" role="menuitem">Blog</a></li>
+          {% if site.data.site.author.cv and site.data.site.author.cv != "" %}
+          <li role="none"><a class="page-link" href="{{ site.data.site.author.cv | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Download CV (opens in new tab)" role="menuitem"><i class="fas fa-file-download" aria-hidden="true"></i> CV</a></li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark and light theme">
         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <circle cx="12" cy="12" r="5"></circle>
           <line x1="12" y1="1" x2="12" y2="3"></line>
           <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -31,10 +38,14 @@
           <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
         </svg>
         <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
         </svg>
       </button>
     </nav>
   </div>
+  
+  <!-- Mobile menu overlay -->
+  <div class="menu-overlay" aria-hidden="true"></div>
 </header>
+
