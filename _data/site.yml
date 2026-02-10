@@ -1,18 +1,18 @@
 # General Site Settings
-title: Aaron Khodami, Ph.D.
+title: Your Name
 description: >-
-  Researcher in Vision Science and Psychology. Exploring the intersection of human perception and cognitive processes.
+  Short site description goes here.
 email: your-email@domain.com
-url: ""
-baseurl: ""
+url: "https://YOUR_USERNAME.github.io"
+baseurl: "" # User/org site uses empty baseurl
 
 # Author Settings
 author:
-  name: Aaron Khodami, Ph.D
-  title: Cognitive Scientist & Vision Researcher
+  name: Your Name
+  title: Your Title
   photo: myPhoto.jpg # Place this image in assets/images/
   bio: >-
-    My work combines psychophysics, computational modeling, and neuroimaging to understand how we see and remember the world.
+    Brief bio goes here. Mention your research focus, expertise, or interests.
   cv: "assets/uploads/cv.pdf" # Replace with your actual CV file path
 
 # Social Links (Leave empty if not using)
@@ -23,4 +23,4 @@ social:
   google_scholar: https://scholar.google.com/citations?user=Example
   researchgate: https://www.researchgate.net/profile/username
   orcid: https://orcid.org/0000-0000-0000-0000
-  website: https://aaronkhodami.github.io
+  website: https://YOUR_USERNAME.github.io

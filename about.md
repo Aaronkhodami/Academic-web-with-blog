@@ -33,16 +33,16 @@ permalink: /about/
   <!-- Fallback if no data file -->
   <div class="research-grid">
     <div class="research-item">
-        <h3>Vision Science & Perception</h3>
-        <p>Investigating how the visual system processes and interprets information.</p>
+      <h3>Research Area One</h3>
+      <p>Brief description of your research area.</p>
     </div>
     <div class="research-item">
-        <h3>Cognitive Psychology</h3>
-        <p>Understanding attention, memory, and decision-making processes.</p>
+      <h3>Research Area Two</h3>
+      <p>Brief description of your research area.</p>
     </div>
     <div class="research-item">
-        <h3>Computational Modeling</h3>
-        <p>Developing mathematical models of cognitive and perceptual processes.</p>
+      <h3>Research Area Three</h3>
+      <p>Brief description of your research area.</p>
     </div>
   </div>
   {% endif %}

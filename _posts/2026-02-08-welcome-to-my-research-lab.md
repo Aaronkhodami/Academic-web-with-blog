@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Welcome to My Research Lab"
+title:  "Welcome to Our Research Group"
 date:   2026-02-08 16:30:00 +0100
 categories: updates
-tags: [News, Lab, Vision Science, Cognitive Psychology]
-excerpt: "We are excited to launch our new academic website featuring our latest research in cognitive science."
+tags: [News, Lab, Research]
+excerpt: "We are excited to launch our new academic website featuring our latest updates and projects."
 ---
 
-We are excited to launch our new academic website! This platform will serve as a hub for our latest publications, research projects, and thoughts on the current state of vision science and psychology.
+We are excited to launch our new academic website! This platform will serve as a hub for our latest publications, research projects, and group news.
 
 ### Stay Tuned
-We will be posting regular updates about our experiments, conference presentations, and open positions in the lab.
+We will be posting regular updates about our experiments, conference presentations, and open positions.
 
 
 |------|------|

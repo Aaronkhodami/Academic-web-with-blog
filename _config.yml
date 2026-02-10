@@ -1,23 +1,22 @@
-title: Aaron Khodami, Ph.D.
+title: Your Name
 email: your-email@domain.com
 description: >-
-  Researcher in Vision Science and Psychology. Exploring the intersection of human perception and cognitive processes.
-baseurl: ""
-url: ""
-twitter_username: aaronkhodami
-github_username: aaronkhodami
+  Short site description goes here.
+baseurl: "" # User/org site uses empty baseurl
+url: "https://YOUR_USERNAME.github.io"
+twitter_username: your_handle
+github_username: your_handle
 
 # Note: Content settings have been moved to _data/site.yml
 # Please edit _data/site.yml to change author info, social links, etc.
 
 # Author Settings (Moved to _data/site.yml)
 # author:
-#   name: Aaron Khodami, Ph.D
-#   title: Cognitive Scientist & Vision Researcher
+#   name: Your Name
+#   title: Your Title
 #   photo: myPhoto.jpg # Place this image in assets/images/
 #   bio: >-
-#     I am a researcher exploring the intricacies of human perception, attention, and memory.
-#     My work combines psychophysics, 33525 computational modeling, and neuroimaging to understand how we see and remember the world.
+#     Brief bio goes here. Mention your research focus, expertise, or interests.
 
 # Social Links (Moved to _data/site.yml)
 # social:
@@ -27,7 +26,7 @@ github_username: aaronkhodami
 #   google_scholar: https://scholar.google.com/citations?user=Example
 #   researchgate: https://www.researchgate.net/profile/username
 #   orcid: https://orcid.org/0000-0000-0000-0000
-#   website: https://aaronkhodami.github.io
+#   website: https://YOUR_USERNAME.github.io
 
 # Build settings
 markdown: kramdown

@@ -6,14 +6,14 @@ permalink: /research/
 
 ## Research Focus
 
-My research focuses on understanding the human visual system, particularly in the areas of attention, perception, and memory.
+Briefly describe your research focus and the main questions your group investigates.
 
 ### Current Projects
-- **Project 1**: Investigation of...
-- **Project 2**: Examining the effects of...
+- **Project 1**: Short summary of the project goals.
+- **Project 2**: Short summary of the project goals.
 
 ### Methods
-I use a combination of psychophysics, eye-tracking, and computational modeling to test my hypotheses.
+List the methods, tools, or approaches you use in your work.
 
 ### Future Directions
-I am currently exploring new avenues in...
+Add a sentence or two about where the research is headed next.
