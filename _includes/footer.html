@@ -1,0 +1,63 @@
+<footer class="site-footer">
+    <div class="wrapper">
+        <div class="footer-content"
+            style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 20px;">
+
+            <div class="footer-social">
+                <div class="social-links-icons">
+                    {% if site.data.site.social.email %}
+                    <a href="mailto:{{ site.data.site.social.email }}" aria-label="Email" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    {% endif %}
+
+                    {% if site.data.site.social.linkedin %}
+                    <a href="{{ site.data.site.social.linkedin }}" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    {% endif %}
+
+                    {% if site.data.site.social.x_twitter %}
+                    <a href="{{ site.data.site.social.x_twitter }}" target="_blank" rel="noopener noreferrer"
+                        aria-label="X (Twitter)" title="X (Twitter)">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    {% endif %}
+
+                    {% if site.data.site.social.google_scholar %}
+                    <a href="{{ site.data.site.social.google_scholar }}" target="_blank" rel="noopener noreferrer"
+                        aria-label="Google Scholar" title="Google Scholar">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                    {% endif %}
+
+                    {% if site.data.site.social.researchgate %}
+                    <a href="{{ site.data.site.social.researchgate }}" target="_blank" rel="noopener noreferrer"
+                        aria-label="ResearchGate" title="ResearchGate">
+                        <i class="fab fa-researchgate"></i>
+                    </a>
+                    {% endif %}
+
+                    {% if site.data.site.social.orcid %}
+                    <a href="{{ site.data.site.social.orcid }}" target="_blank" rel="noopener noreferrer"
+                        aria-label="ORCID" title="ORCID">
+                        <i class="fab fa-orcid"></i>
+                    </a>
+                    {% endif %}
+
+                    {% if site.data.site.social.website %}
+                    <a href="{{ site.data.site.social.website }}" target="_blank" rel="noopener noreferrer"
+                        aria-label="Website" title="Personal Website">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="copy" style="margin-top: 5px; font-size: 0.8rem; opacity: 0.8;">
+                &copy; {{ "now" | date: "%Y" }} {{ site.data.site.title }}. All rights reserved. Built with Jekyll.
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,26 @@
+# General Site Settings
+title: Aaron Khodami, Ph.D.
+description: >-
+  Researcher in Vision Science and Psychology. Exploring the intersection of human perception and cognitive processes.
+email: your-email@domain.com
+url: ""
+baseurl: ""
+
+# Author Settings
+author:
+  name: Aaron Khodami, Ph.D
+  title: Cognitive Scientist & Vision Researcher
+  photo: myPhoto.jpg # Place this image in assets/images/
+  bio: >-
+    My work combines psychophysics, computational modeling, and neuroimaging to understand how we see and remember the world.
+  cv: "assets/uploads/cv.pdf" # Replace with your actual CV file path
+
+# Social Links (Leave empty if not using)
+social:
+  email: your-email@domain.com
+  linkedin: https://www.linkedin.com/in/username
+  x_twitter: https://x.com/username
+  google_scholar: https://scholar.google.com/citations?user=Example
+  researchgate: https://www.researchgate.net/profile/username
+  orcid: https://orcid.org/0000-0000-0000-0000
+  website: https://aaronkhodami.github.io

@@ -1,0 +1,47 @@
+tools:
+  - Python
+  - R
+  - MATLAB
+  - JASP
+  - HTML
+  - JavaScript
+  - JATOS
+  - SPSS
+education:
+  - degree: Ph.D. in Cognitive Science
+    university: "[University Name]"
+    logo: "" # e.g. university_logo.png
+    url: ""  # e.g. https://university.edu
+    year: "[Year]"
+    details: |
+      Dissertation: "[Your dissertation title here]"<br>
+      Advisors: [Advisor names]
+  - degree: M.A./M.S. in [Field]
+    university: "[University Name]"
+    year: "[Year]"
+    details: |
+      Thesis: "[Your thesis title here]"
+  - degree: B.A./B.S. in [Field]
+    university: "[University Name]"
+    year: "[Year]"
+    details: |
+      Magna Cum Laude, Phi Beta Kappa<br>
+      Relevant Coursework: [List key courses]
+
+experience:
+  - position: "PhD Student"
+    institution: "University of Padua"
+    logo: "unipd.png" # e.g. company_logo.png
+    url: "https://unipd.it"
+    duration: "[Start Year - Present]"
+    description: "[Key responsibility or achievement]"
+  - position: "[Previous Position]"
+    institution: "[Institution]"
+    duration: "[Start Year - End Year]"
+    description: "[Key responsibility or achievement]"
+
+contact:
+  office: |
+    [Building Name], Room [Number]<br>
+    [Institution Name]
+  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6083.2242035867375!2d11.891314212091093!3d45.41117487095245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477edaf41b89c261%3A0x8469f6d09b924a00!2sVia%20Venezia%2C%2012%2C%2035131%20Padova%20PD!5e1!3m2!1sen!2sit!4v1770715756212!5m2!1sen!2sit"

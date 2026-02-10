@@ -1,0 +1,32 @@
+
+- title: "The specific role of visual attention in perceptual learning"
+  type: "Journal Paper"
+  authors: "**Khodami, A.***, & Smith, J."
+  journal: "Journal of Vision, 2026"
+  abstract: "This study investigates how attention modulates plasticity in the visual cortex during prolonged training sessions."
+  doi: "10.1167/jov.26.1.1"
+  pdf: "assets/uploads/paper1.pdf"
+
+- title: "Neural mechanisms of feature binding in crowded environments"
+  type: "Pre-print"
+  authors: "Doe, J., Khodami, A., & Johnson, R."
+  journal: "Nature Neuroscience (Submitted), 2025"
+  abstract: "We explore the neural correlates of feature integration when objects are presented in high-clutter scenes."
+  doi: "10.1038/nn.2025.123"
+  pdf: "" # Empty to test inactive button
+
+- title: "Attention in the wild: Real-world scene understanding"
+  type: "Conference Presentation"
+  authors: "Khodami, A., & Doe, J."
+  journal: "Vision Sciences Society (VSS), 2024"
+  abstract: "A novel approach to quantifying attention allocation in naturalistic video watching."
+  doi: ""
+  pdf: "poster_vss2024.pdf" # Assumes local file
+
+- title: "Cognitive load and pupil dilation"
+  type: "Talk"
+  authors: "Khodami, A."
+  journal: "Invited Talk at University of X, 2023"
+  abstract: "Discussing recent findings on the link between task difficulty and pupillometry."
+  doi: ""
+  pdf: "https://slideshare.net/example" # External link
