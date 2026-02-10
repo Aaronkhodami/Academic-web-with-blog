@@ -1,4 +1,7 @@
-﻿:root {
+﻿.post-card .post-tags--pipe {
+  justify-content: flex-start;
+}
+:root {
   /* Colors - Light Theme */
   --bg-color: #fdfdfd;
   --text-color: #1a1a1a;
@@ -783,6 +786,7 @@ img {
 /* Post Layout */
 .post-header {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .post-header.hero-header {
@@ -827,6 +831,28 @@ img {
   font-size: 1.2rem;
   color: var(--secondary-text);
   font-weight: 300;
+}
+
+.post-tags--pipe {
+  justify-content: center;
+  gap: 8px;
+}
+
+.post-tag-link {
+  color: var(--secondary-text);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.post-tag-link:hover {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.post-tag-link:not(:last-child)::after {
+  content: " | ";
+  color: var(--secondary-text);
+  margin: 0 6px;
 }
 
 .post-content {

@@ -29,11 +29,11 @@ permalink: /blog/
       
       <div class="post-card-footer" style="margin-top: auto; padding-top: 15px; border-top: 1px dashed var(--border-color);">
           {% if post.tags %}
-          <div class="post-tags" style="justify-content: flex-start; flex-wrap: wrap;">
+            <div class="post-tags post-tags--pipe" style="justify-content: flex-start;">
               {% for tag in post.tags %}
-              <a href="{{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}" class="tag-pill" style="font-size: 0.8rem;">{{ tag }}</a>
+              <a href="{{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}" class="post-tag-link">{{ tag }}</a>
               {% endfor %}
-          </div>
+            </div>
           {% endif %}
       </div>
     </article>

@@ -21,10 +21,9 @@ layout: default
                 {% endif %}
             </p>
             {% if page.tags %}
-            <div class="post-tags">
+            <div class="post-tags post-tags--pipe">
                 {% for tag in page.tags %}
-                <a href="{{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}" class="tag-pill transparent">{{ tag
-                    }}</a>
+                <a href="{{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}" class="post-tag-link">{{ tag }}</a>
                 {% endfor %}
             </div>
             {% endif %}
@@ -47,9 +46,9 @@ layout: default
             {% endif %}
         </p>
         {% if page.tags %}
-        <div class="post-tags" style="margin-bottom: 20px;">
+        <div class="post-tags post-tags--pipe" style="margin-bottom: 20px;">
             {% for tag in page.tags %}
-            <a href="{{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}" class="tag-pill">{{ tag }}</a>
+            <a href="{{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}" class="post-tag-link">{{ tag }}</a>
             {% endfor %}
         </div>
         {% endif %}
